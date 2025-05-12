@@ -1,0 +1,16 @@
+{
+  "planningHorizon": 60,
+  "numStops": 10,
+  "numBuses": 5,
+  "busCapacity": 40,
+  "arrivalRatePerStop": 1,
+  "boardingTimePerPassenger": 5,
+  "minHeadway": 5,
+  "maxHeadway": 15,
+  "minSpeed": 10,
+  "maxSpeed": 40,
+  "populationSize": 30,
+  "generations": 50,
+  "crossoverRate": 0.8,
+  "mutationRate": 0.2
+}

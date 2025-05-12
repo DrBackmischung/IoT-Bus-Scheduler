@@ -1,0 +1,11 @@
+{
+  "name": "iot-bus-scheduler",
+  "version": "1.0.0",
+  "description": "Dynamic bus scheduling optimization model based on Luo et al.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "OpenAI",
+  "license": "MIT"
+}
