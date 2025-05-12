@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Dynamic bus scheduling optimization model based on Luo et al.",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js"
   },
   "author": "OpenAI",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "structured-clone": "^0.2.2"
+  }
 }

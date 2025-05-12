@@ -1,4 +1,8 @@
-const { runSimulation } = require('./scheduler');
-const config = require('./config.json');
+import { config } from './config.js';
+import { simulateRollingHorizons } from './rolling.js';
 
-runSimulation(config);
+async function main() {
+  await simulateRollingHorizons(config, 120); // total 2 hours
+}
+
+main();
